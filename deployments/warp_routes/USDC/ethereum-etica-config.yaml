@@ -6,7 +6,7 @@ tokens:
       - token: ethereum|ethereum|0xf8AAEd754cC3d55B8Fe2d87aAf9768ef20f9B099
     decimals: 6
     logoURI: /deployments/warp_routes/USDC/logo.svg
-    name: USD Coin
+    name: USD Coin (Etica)
     standard: EvmHypSynthetic
     symbol: USDC.e
   - addressOrDenom: "0xf8AAEd754cC3d55B8Fe2d87aAf9768ef20f9B099"

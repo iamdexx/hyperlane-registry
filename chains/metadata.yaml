@@ -2975,6 +2975,39 @@ ethereum:
     - http: https://eth.blockrazor.xyz
     - http: https://eth-pokt.nodies.app
   technicalStack: other
+etica:
+  blockExplorers:
+    - apiUrl: https://eticahub.com/api/explorer
+      family: etherscan
+      name: EticaHub Explorer
+      url: https://eticahub.com/explorer
+    - apiUrl: https://eticascan.org/api
+      family: other
+      name: Eticascan
+      url: https://eticascan.org
+  blocks:
+    confirmations: 3
+    estimateBlockTime: 13
+    reorgPeriod: 32
+  chainId: 61803
+  deployer:
+    name: EticaHub
+    url: https://eticahub.com
+  displayName: Etica
+  domainId: 61803
+  isTestnet: false
+  name: etica
+  nativeToken:
+    decimals: 18
+    name: Etica Gas
+    symbol: EGAZ
+  protocol: ethereum
+  rpcUrls:
+    - http: https://eticamainnet.eticaprotocol.org
+    - http: https://eticamainnet.eticascan.org
+  technicalStack: other
+  transactionOverrides:
+    gasPrice: 81000000000
 euphoriatestnet:
   blockExplorers:
     - apiUrl: https://euphoria-api.aurascan.io

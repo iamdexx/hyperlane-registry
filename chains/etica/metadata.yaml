@@ -26,6 +26,7 @@ nativeToken:
   symbol: EGAZ
 protocol: ethereum
 rpcUrls:
+  - http: https://rpc.eticahub.com
   - http: https://eticamainnet.eticaprotocol.org
   - http: https://eticamainnet.eticascan.org
 technicalStack: other
